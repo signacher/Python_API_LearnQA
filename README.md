@@ -15,7 +15,8 @@
   
 ## :heavy_check_mark: Описание:
 >В этом репозитории:
->- Демо-проект с примерами автотестов, написанных на языке <code>Python</code> с помощью библиотеки <code>Requests</code>.
+>- Демо-проект с примерами автотестов API, написанных на языке <code>Python</code> с помощью библиотеки <code>Requests</code>.
+>- Ссылка на API <a target="_blank" href="https://playground.learnqa.ru/api/map"> https://playground.learnqa.ru/api/map/api<a>
 >- Тесты запускаются в Docker контейнере.
 >- Пайплайн 
 >- Формируется

@@ -67,7 +67,5 @@ allure serve .\allure-results
 >- [x] <code><strong>*ENVIRONMENT*</strong></code> - отображает тестовое окружение, на котором запускались тесты 
 >- [x] <code><strong>*FEATURES BY STORIES*</strong></code> - отображает распределение тестов по функционалу, который они проверяют
 
-###### Главный экран (Owerview)
-![Screen Allure1](images/AllureReport1.png)
-###### Пример описания шагов теста
-![Screen Allure2](images/AllureReport2.png)
+###### Пример отчета
+![Screen Allure3](images/allurereport3.png)

@@ -46,7 +46,7 @@
 ```bash
 docker-compose up --build
 ```
-<br/><br/>
+
 >Команды для установки переменной окружения ENV чтобы выбрать окружение перед запуском тестов (по умолчанию установлен dev)
 
 <code>set ENV=dev</code>  Тесты запускаются на https://playground.learnqa.ru/api_dev

@@ -1,10 +1,10 @@
 <table width="100%" border='0'>
- <tr><td width="30%" valign="bottom"><img src="https://github.com/signacher/signacher/blob/main/images/learnqa.png" title="shop" alt="Saucedemo" width="200" height="200"/></td><td valign="middle">
+ <tr><td width="30%" valign="bottom"><img src="https://github.com/signacher/signacher/blob/main/images/learnqa.png" title="api" alt="api" width="200" height="200"/></td><td valign="middle">
  <h2>Демо проект по автоматизации тестирования API  <a target="_blank" href="https://playground.learnqa.ru/api/map"> playground.learnqa.ru/api<a></h2>
  </td></tr>
 </table>
 
-### *Проект создан в рамках прохождения курса "Тестирование ПО:Автоматизация и Программирование.Python.Selenium"*
+<h3>Проект создан в рамках обучения на курсе <a target="_blank" href="https://www.learnqa.ru/python_api"> Автоматизация тестирования REST API на Python.</a></h3>
 
 ## :open_book: Содержание:
 - [Описание проекта](#heavy_check_mark-описание)

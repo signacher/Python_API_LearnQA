@@ -59,7 +59,7 @@ docker-compose up --build
 <br/><br/>
 >Запуск из командной строки с формированием результатов отчета
 ```bash
-python -m pytest --alluredir=test_rusult
+python -m pytest --alluredir=test_result
 ```
 ## :bar_chart: Allure отчет о прохождении тестов
 

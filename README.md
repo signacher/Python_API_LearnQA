@@ -50,11 +50,13 @@
 >4. Нажать **Run workflow**
 >5. Дождаться завершения пайплайна и можно смотреть отчет о пройденных тестах
 
-![Screen Actions1](images/run_actions.png)
 
 ## :bar_chart: Allure отчет о прохождении тестов
 
-Отчет о прохождении теста доступен по ссылке <a target="_blank" href="https://signacher.github.io/saucedemo_ui"> https://signacher.github.io/saucedemo_ui/</a>
+> для формирования отчета ввести в командной строке: 
+```bash
+allure serve .\allure-results
+```
 
 *Главная страница Allure-отчета содержит следующие информационные блоки:*
 

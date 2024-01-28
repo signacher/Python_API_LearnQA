@@ -17,9 +17,9 @@
 >В этом репозитории:
 >- Демо-проект с примерами автотестов API, написанных на языке <code>Python</code> с помощью библиотеки <code>Requests</code>.
 >- Ссылка на API <a target="_blank" href="https://playground.learnqa.ru/api/map"> https://playground.learnqa.ru/api/map/api<a>
->- Тесты запускаются в Docker контейнере.
->- Пайплайн 
->- Формируется
+>- Тесты можно запускать в Docker контейнере.
+>- Лог прохождения тестов пишется а файлы в папке <code>logs</code>
+>- 
 
 ## :gear: Технологии и инструменты:
 <div align="center">
@@ -42,15 +42,21 @@
 
 ## :on: Как запускать тесты:
 
->1. Перейти во вкладку `Actions`
->2. В левом меню выбрать воркфлоу `Saucedemo UI tests`
->3. Выбрать в выпадающем списке какие тесты будут запускаться
->   - `All tests` - будут запущены все тесты
->   - `Buy tests` - будут запущены тесты покупки товаров
->4. Нажать **Run workflow**
->5. Дождаться завершения пайплайна и можно смотреть отчет о пройденных тестах
+>Запуск тестов в докер контейнере
+```bash
+docker-compose up --build
+```
+<br/><br/>
+>Команды для установки переменной окружения ENV чтобы выбрать окружение перед запуском тестов (по умолчанию установлен dev)
 
+<code>set ENV=dev</code>  Тесты запускаются на https://playground.learnqa.ru/api_dev
 
+<code>set ENV=prod</code> Тесты запускаются на https://playground.learnqa.ru/api
+<br/><br/>
+>Запуск из командной строки с формированием результатов отчета
+```bash
+python -m pytest --alluredir=test_rusult
+```
 ## :bar_chart: Allure отчет о прохождении тестов
 
 > для формирования отчета ввести в командной строке: 
@@ -67,5 +73,5 @@ allure serve .\allure-results
 >- [x] <code><strong>*ENVIRONMENT*</strong></code> - отображает тестовое окружение, на котором запускались тесты 
 >- [x] <code><strong>*FEATURES BY STORIES*</strong></code> - отображает распределение тестов по функционалу, который они проверяют
 
-###### Пример отчета
+##### Пример отчета
 ![Screen Allure3](images/allurereport3.png)
